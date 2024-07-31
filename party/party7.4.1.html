@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gene Taback's Mandel Zooming Party</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"><link href='http://fonts.googleapis.com/css?family=Lato:700,400italic|Karla:400,400italic,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../magnific/magnific-popup.css"/>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="../magnific/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+
+	});
+
+	$('.image-popup-fit-width').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		image: {
+			verticalFit: false
+		}
+	});
+
+	$('.image-popup-no-margins').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		image: {
+			verticalFit: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+	});
+
+});
+</script>
+
+</head>
+
+<body>
+<div id="gradientbackground"></div>
+<div id="container">
+  <div id="header"><a href="../index.html"><img src="../images/header1.png" display:block;" /></a></div>
+
+      <div id="navbox">
+      <div id="nav1">
+      <div id="nav1selected">
+    <a href="index.html"><img src="../images/buttons/letsparty_yellowbutton.png" /></a></div></div>
+
+      <div id="nav2"><a href="../about/index.html"><img src="../images/buttons/zoomingparty_button.png" onmouseover="this.src='../images/buttons/zoomingparty_yellowbutton.png'" onmouseout="this.src='../images/buttons/zoomingparty_button.png'"  /></a></div>
+
+      <div id="nav3"><a href="../contact/index.html"><img src="../images/buttons/contact_button.png" onmouseover="this.src='../images/buttons/contact_yellowbutton.png'" onmouseout="this.src='../images/buttons/contact_button.png'" /></a></div></div>
+      
+      <div id="subheadbox"><div id="subhead"><a href="party7.html">PARTY 7</a></div></div>
+
+      <div id="largethumbcontentbox1">
+
+<div id="title1">FRACTAL 7.4.1
+<span class="subtitle1">Click to enlarge.</div>
+
+         <a class="image-popup-no-margins" href="../images/fractals/7/7.4.1.jpg" ><img src="../images/fractals/7/large thumbs/7.4.1.jpg"></a>
+         </div>
+
+  <div id="smallthumbcontentbox1">
+   <div id="smallthumbcontent1">
+   <p>CHILDREN, GEN 3</p>
+
+   <div id="gallery1">
+   <div id="box-2" class="box">
+   <a href="party7.4.1.1.html">
+   <img src="../images/fractals/7/small thumbs/7.4.1.1.jpg">
+   <span class="caption fade-caption">
+        FRACTAL 7.4.1.1
+        </span>  </a></div>
+
+   <div id="box-2" class="box">
+    <a href="party7.4.1.2.html">
+      <img src="../images/fractals/7/small thumbs/7.4.1.2.jpg">
+      <span class="caption fade-caption">
+        FRACTAL 7.4.1.2
+        </span>  </a></div></div>
+
+  </div></div>
+
+  <div id="bottomnav">
+  <ul><li><a href="party7.4.html"><img src="../images/buttons/backbutton.png">&nbsp;&nbsp;Previous Generation</a></li>
+ <li><a href="party7.html"><img src="../images/buttons/backbutton.png">&nbsp;&nbsp;Back to Mother</a></li>
+  <li><a href="tree7.html"><img src="../images/buttons/tree.png">&nbsp;&nbsp;Family Tree</a></li>
+  </ul>
+  </div>
+
+  <div id="footer">
+<p>All fractal artwork &copy;2014 Gene Taback.</p></div>
+      </div>
+      </body>
+</html>
